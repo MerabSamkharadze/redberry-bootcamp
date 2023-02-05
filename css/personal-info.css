@@ -67,3 +67,11 @@ body {
   right: 0px;
   top: 0px;
 }
+
+.mini_logo_onrightpnl {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 78px;
+  top: 994px;
+}
