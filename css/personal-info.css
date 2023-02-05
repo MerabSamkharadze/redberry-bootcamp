@@ -108,6 +108,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  cursor: pointer;
+}
+.next_button:hover {
+  background: #6b40e3e6;
 }
 
 /* right panel (personal info) */
@@ -296,6 +300,10 @@
   border-radius: 4px;
   border: none;
   color: #ffffff;
+  cursor: pointer;
+}
+.upload_button:hover {
+  background-color: rgba(14, 129, 191, 0.781);
 }
 .info_input_boxes {
   height: 427px;
