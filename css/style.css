@@ -28,6 +28,7 @@ body {
 }
 
 .button {
+  text-decoration: none;
   box-sizing: border-box;
   position: relative;
   width: 464px;

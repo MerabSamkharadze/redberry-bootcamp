@@ -83,10 +83,9 @@
 }
 
 .bord_section {
-  width: 846px;
+  width: 798px;
   height: 658px;
-  background-color: bisque;
-  margin-left: 126px;
+  margin-left: 140px;
 }
 .bord_bottom {
   width: 100%;
@@ -114,13 +113,13 @@
   line-height: 20px;
 }
 
-/* final right panel */
+/* right panel (personal info) */
 
 .personal_information {
   display: flex;
   height: 330px;
   width: 100%;
-  /* background-color: aquamarine; */
+  display: none;
 }
 
 .prophile_picture img {
@@ -220,4 +219,107 @@
   text-transform: lowercase;
 
   color: #000000;
+}
+
+/* left panel  */
+
+.name_surname {
+  margin-top: 69px;
+  display: flex;
+  justify-content: space-between;
+  height: 122px;
+  width: 100%;
+}
+
+.name_box {
+  height: 100%;
+  width: 419px;
+}
+.surname_box {
+  height: 100%;
+  width: 419px;
+  padding-left: 29px;
+}
+.name_font {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+.under_text_font {
+  color: #2e2e2e;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+}
+.nm_input {
+  box-sizing: border-box;
+
+  width: 371px;
+  height: 48px;
+
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+  border-radius: 4px;
+  padding: 13px 16px;
+
+  margin: 8px 0;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.foto_uploader {
+  height: 135px;
+  width: 100%;
+  display: flex;
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+.text_before_upload {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-right: 19px;
+
+  color: #1a1a1a;
+}
+
+.upload_button {
+  background-color: rgba(14, 128, 191, 1);
+  width: 107px;
+  height: 27px;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+}
+.info_input_boxes {
+  height: 427px;
+  width: 100%;
+  background-color: beige;
+}
+
+.input_about_me {
+  width: 100%;
+  height: 148px;
+  background-color: #7fe674;
+}
+.input_email {
+  width: 100%;
+  height: 122px;
+  margin-top: 17px;
+  background-color: #40d0e3;
+}
+.input_mobile_number {
+  width: 100%;
+  height: 122px;
+  margin-top: 13px;
+  background-color: #f91dd8;
 }
