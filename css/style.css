@@ -20,8 +20,44 @@ body {
 }
 
 .ring {
+  position: absolute;
   width: 299px;
   height: 299px;
   margin-top: 384px;
   margin-left: 1076px;
+}
+
+.button {
+  box-sizing: border-box;
+  position: relative;
+  width: 464px;
+  height: 60px;
+
+  background: #1a1a1a;
+  border-radius: 8px;
+
+  margin-left: 728px;
+  margin-top: 424px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 126px;
+  gap: 20px;
+
+  /* font */
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1a1a1aa2;
 }
