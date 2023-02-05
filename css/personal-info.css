@@ -75,3 +75,21 @@ body {
   left: 78px;
   top: 994px;
 }
+
+.section {
+  width: 1098px;
+  height: 992px;
+  background: #ca3c3c;
+}
+
+.bord_section {
+  width: 846px;
+  height: 658px;
+  background-color: bisque;
+  margin-left: 126px;
+}
+.bord_bottom {
+  width: 100%;
+  height: 265px;
+  background-color: aquamarine;
+}
