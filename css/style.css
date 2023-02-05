@@ -1,0 +1,27 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 1920px;
+  height: 1080px;
+  background-image: url(/images/background_1pg.jpg);
+}
+
+.hed {
+  border-bottom: solid black;
+  margin: 0 70px;
+}
+
+.logo_img {
+  width: 236px;
+  height: 38px;
+  padding-top: 25px;
+  padding-bottom: 26px;
+}
+
+.ring {
+  width: 299px;
+  height: 299px;
+  margin-top: 384px;
+  margin-left: 1076px;
+}
