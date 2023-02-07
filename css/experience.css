@@ -1,4 +1,9 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeue.ttc") format("truetype");
+}
 .body {
+  font-family: "Helvetica Neue";
   position: relative;
   box-sizing: border-box;
   margin: 0;
