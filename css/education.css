@@ -90,7 +90,7 @@
 
 .bord_section {
   width: 798px;
-  height: 594px;
+  height: 500px;
   margin-left: 150px;
   border-bottom: 1px solid #c1c1c1;
 }
@@ -100,7 +100,7 @@
   margin-left: 149px;
 }
 .nav_bottom {
-  margin-top: 131px;
+  margin-top: 225px;
   display: flex;
   justify-content: space-between;
 }
@@ -359,7 +359,7 @@
   margin-top: 8px;
 
   width: 798px;
-  height: 123px;
+  height: 179px;
 
   background: #ffffff;
   border: 1px solid #bcbcbc;
