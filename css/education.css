@@ -379,3 +379,10 @@
   padding: 16px 13px;
   margin: 8px 0;
 }
+.cros_line {
+  width: 662px;
+  height: 1px;
+  border-bottom: 1px solid #c8c8c8;
+  margin-left: 80px;
+  margin-top: 10px;
+}
