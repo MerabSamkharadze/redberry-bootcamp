@@ -69,6 +69,7 @@
 .right_panel {
   position: absolute;
   width: 822px;
+  min-height: 1080px;
   background: #ffffff;
   right: 0px;
   top: 0px;
