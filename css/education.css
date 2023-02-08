@@ -251,7 +251,21 @@
 .mobile_number img {
   margin-right: 12px;
 }
+.ex_hed {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 24px;
 
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  width: 118px;
+  height: 22px;
+
+  color: #f93b1d;
+}
 .about_me {
   display: flex;
   margin-left: 80px;
@@ -280,6 +294,63 @@
   line-height: 22px;
 
   text-transform: lowercase;
+
+  color: #000000;
+}
+
+/* experience info */
+
+/* experience info */
+
+/* .exparience_information {
+  margin-bottom: 10px;
+} */
+
+.experience_and_employer {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #1a1a1a;
+
+  height: 20px;
+  display: flex;
+
+  margin-top: 15px;
+  margin-left: 80px;
+}
+.knowlidge {
+  margin-right: 7px;
+}
+.period_of_experience {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #919191;
+
+  width: 183px;
+  height: 19px;
+
+  margin-top: 7px;
+  margin-left: 80px;
+}
+.experience_txt {
+  width: 662px;
+  margin-left: 80px;
+  margin-top: 16px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-transform: capitalize;
 
   color: #000000;
 }
@@ -385,4 +456,11 @@
   border-bottom: 1px solid #c8c8c8;
   margin-left: 80px;
   margin-top: 10px;
+}
+.cros_line2 {
+  width: 662px;
+  height: 1px;
+  border-bottom: 1px solid #c8c8c8;
+  margin-left: 80px;
+  margin-top: 32px;
 }
