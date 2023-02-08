@@ -480,3 +480,47 @@
   margin-left: 80px;
   margin-top: 32px;
 }
+.options {
+  position: absolute;
+  box-sizing: border-box;
+  width: 370px;
+  height: 355px;
+  left: 150px;
+  top: 379px;
+
+  filter: drop-shadow(0px 16px 28px rgba(0, 0, 0, 0.24));
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  overflow: hidden;
+}
+.none {
+  display: none;
+}
+
+.option {
+  width: 340px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 10px;
+
+  display: flex;
+  align-items: center;
+
+  color: #1a1a1a;
+  cursor: pointer;
+}
+.option:hover {
+  background: #c3dcee;
+  border-radius: 5px;
+}
