@@ -422,16 +422,24 @@
 }
 .about_input_dm {
   box-sizing: border-box;
-  padding-bottom: 69px;
+  padding-top: 13px;
   padding-left: 16px;
+  padding-right: 200px;
   margin-top: 8px;
 
   width: 798px;
-  height: 123px;
+  height: 103px;
 
   background: #ffffff;
   border: 1px solid #bcbcbc;
   border-radius: 4px;
+  text-transform: lowercase;
+  text-align: left;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .position_dm {
