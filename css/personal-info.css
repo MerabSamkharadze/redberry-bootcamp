@@ -194,6 +194,16 @@
 .mobile_number img {
   margin-right: 12px;
 }
+.dog {
+  display: none;
+}
+.mob {
+  display: none;
+}
+
+.photo {
+  display: none;
+}
 
 .about_me {
   display: flex;
@@ -207,7 +217,7 @@
   line-height: 22px;
   width: 118px;
   height: 22px;
-
+  display: none;
   color: #f93b1d;
 }
 .text_about_me {

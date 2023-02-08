@@ -2,19 +2,19 @@
   font-family: "Helvetica Neue";
   src: url("/fonts/HelveticaNeue.ttc") format("truetype");
 }
-
 body {
-  position: relative;
+  height: 100%;
 }
 .right_panel {
   box-sizing: border-box;
 
   position: absolute;
   width: 822px;
-  min-height: 1080px;
+  min-height: 940px;
   height: auto;
   top: 54px;
   left: 549px;
+  bottom: 54px;
 
   background: #ffffff;
   border: 0.8px solid #000000;
@@ -229,7 +229,7 @@ body {
   margin-top: 32px;
 }
 .popup {
-  position: absolute;
+  position: fixed;
   width: 427px;
   height: 167px;
   left: 1423px;

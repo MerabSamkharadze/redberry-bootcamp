@@ -266,8 +266,15 @@
   line-height: 22px;
   width: 118px;
   height: 22px;
-
+  display: none;
   color: #f93b1d;
+}
+.down_img {
+  position: absolute;
+  margin-top: 22px;
+  margin-left: 342px;
+  cursor: pointer;
+  /* display: none; */
 }
 .about_me {
   display: flex;
@@ -443,7 +450,9 @@
   font-size: 16px;
   line-height: 22px;
 }
-
+.mdzime {
+  display: none;
+}
 .position_dm {
   box-sizing: border-box;
 
