@@ -42,7 +42,12 @@
             </div>
             <div class="foto_uploader">
               <p class="text_before_upload">პირადი ფოტოს ატვირთვა</p>
-              <input type="submit" value="ატვირთვა" class="upload_button" />
+              <div class="upload_button_over">
+                <form class="opacity" action="/action_page.php">
+                  <input type="file" id="myFile" name="filename" />
+                </form>
+                <div class="upload_button">ატვირთვა</div>
+              </div>
             </div>
             <div class="info_input_boxes">
               <div class="input_about_me">
