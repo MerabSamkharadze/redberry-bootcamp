@@ -273,8 +273,9 @@
   position: absolute;
   margin-top: 22px;
   margin-left: 342px;
+}
+.select_input_vl {
   cursor: pointer;
-  /* display: none; */
 }
 .about_me {
   display: flex;
