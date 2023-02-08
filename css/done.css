@@ -19,6 +19,9 @@ body {
   background: #ffffff;
   border: 0.8px solid #000000;
 }
+.into_right_panel {
+  margin-bottom: 128px;
+}
 .heder {
   margin-top: 45px;
   margin-left: 45px;

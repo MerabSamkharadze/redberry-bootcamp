@@ -69,12 +69,13 @@
 .right_panel {
   position: absolute;
   width: 822px;
-  height: 1080px;
   background: #ffffff;
   right: 0px;
   top: 0px;
 }
-
+.into_right_panel {
+  margin-bottom: 128px;
+}
 .mini_logo_onrightpnl {
   position: absolute;
   width: 42px;
@@ -451,4 +452,11 @@
   border-bottom: 1px solid #c8c8c8;
   margin-left: 80px;
   margin-top: 10px;
+}
+.cros_line2 {
+  width: 662px;
+  height: 1px;
+  border-bottom: 1px solid #c8c8c8;
+  margin-left: 80px;
+  margin-top: 32px;
 }
