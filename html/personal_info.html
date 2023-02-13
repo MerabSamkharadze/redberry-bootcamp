@@ -27,14 +27,16 @@
             <div class="name_surname">
               <div class="name_box">
                 <label for="fname" class="name_font">სახელი</label>
+                <div class="green_icon none"></div>
                 <input class="nm_input" type="text" id="fname" name="fname" />
                 <label for="fname" class="under_text_font"
                   >მინიმუმ 2 ასო, ქართული ასოები</label
                 >
               </div>
               <div class="surname_box">
-                <label for="fname" class="name_font">გვარი</label>
-                <input class="nm_input" type="text" id="fname" name="fname" />
+                <label for="lname" class="name_font">გვარი</label>
+                <div class="green_icon none"></div>
+                <input class="nm_input" type="text" id="lname" name="lname" />
                 <label for="fname" class="under_text_font"
                   >მინიმუმ 2 ასო, ქართული ასოები</label
                 >
@@ -44,7 +46,12 @@
               <p class="text_before_upload">პირადი ფოტოს ატვირთვა</p>
               <div class="upload_button_over">
                 <form class="opacity" action="/action_page.php">
-                  <input type="file" id="myFile" name="filename" />
+                  <input
+                    type="file"
+                    id="myFile"
+                    name="filename"
+                    accept="image/*"
+                  />
                 </form>
                 <div class="upload_button">ატვირთვა</div>
               </div>
@@ -66,6 +73,8 @@
               </div>
               <div class="input_email">
                 <label for="fname" class="name_font">ელ.ფოსტა</label>
+                <div class="red_icon2"></div>
+                <div class="green_icon2"></div>
                 <input
                   class="emeil_input_dm"
                   type="text"
@@ -78,6 +87,8 @@
               </div>
               <div class="input_mobile_number">
                 <label for="fname" class="name_font">მობილურის ნომერი</label>
+                <div class="red_icon2"></div>
+                <div class="green_icon2"></div>
                 <input
                   class="mobile_number_dm"
                   type="text"
@@ -118,11 +129,7 @@
             <div class="text_about_me"></div>
           </div>
           <div class="prophile_picture">
-            <img
-              class="photo"
-              src="/images/profile_photo.jpeg"
-              alt="profile_photo"
-            />
+            <img class="photo" src="" alt="profile_photo" id="photo" />
           </div>
         </div>
 
@@ -131,5 +138,6 @@
         </div>
       </div>
     </div>
+    <script src="/js/personal_info.js"></script>
   </body>
 </html>

@@ -398,3 +398,41 @@
   padding: 16px 13px;
   margin: 8px 0;
 }
+.green_icon {
+  position: absolute;
+  background: url(/images/green_icon.png);
+  background-size: cover;
+  height: 16.5px;
+  width: 16.5px;
+  margin-top: 25px;
+  margin-left: 340px;
+}
+
+.green_icon2 {
+  position: absolute;
+  background: url(/images/green_icon.png);
+  background-size: cover;
+  height: 16.5px;
+  width: 16.5px;
+  margin-top: 25px;
+  margin-left: 765px;
+}
+.red_icon2 {
+  position: absolute;
+  background: url(/images/red_icon.png);
+  background-size: cover;
+  height: 18.75px;
+  width: 21.5px;
+  margin-top: 23.5px;
+  margin-left: 816px;
+}
+.none {
+  display: none;
+}
+.valid {
+  border: 1px solid #98e37e;
+}
+
+.nm_input:focus {
+  border: 1px solid #98e37e;
+}
